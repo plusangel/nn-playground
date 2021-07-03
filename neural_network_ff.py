@@ -30,6 +30,10 @@ class NeuralNetwork:
         return out_o1
 
 
+def mse_loss(y_true, y_pred):
+    return ((y_true - y_pred) ** 2).mean()
+
+
 if __name__ == "__main__":
     network = NeuralNetwork()
     x = np.array([2, 3])

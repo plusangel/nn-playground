@@ -4,5 +4,8 @@ This is my playground for neural networks following [Victor's Zhou](https://vict
 
 It contains:
 - Neuron
-- Feedforwrd
+- Feedforward pass
 - Neural Network
+- Backpropagation
+- Sigmoid function
+- Stochastic gradient descent (SGD)
